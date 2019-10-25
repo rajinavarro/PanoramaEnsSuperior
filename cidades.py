@@ -14,7 +14,7 @@ def curso(nomeCurso):
       
         if nomeCurso[0:(len(nomeCurso))] == listCurso[i]['DESC_CURSO'][0:(len(nomeCurso))]:
             possiveisCursos.append(listCurso[i]['URL_CURSO'])
-    
+    #oi
     for i in range(len(possiveisCursos)):
         if i < 10:
             print(f'ID: {i}  |', possiveisCursos[i].replace('-', ' '))
